@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from 'uuid';
 // Hero
 export const heroData = {
     title: '',
-    name: '',
-    subtitle: '',
+    name: 'Filipe Silva',
+    subtitle: 'Full Stack Web Developer',
     cta: '',
 };
 

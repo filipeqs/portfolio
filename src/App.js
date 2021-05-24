@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Hero from './components/Hero';
+
 import { PortfolioProvider } from './context/context';
 
 import { heroData, aboutData, footerData, contactData, projectsData } from './data/data';
@@ -19,7 +21,9 @@ const App = () => {
     }, []);
 
     return (
-        <PortfolioProvider value={{ hero, about, projects, contact, footer }}></PortfolioProvider>
+        <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+            <Hero />
+        </PortfolioProvider>
     );
 };
 
