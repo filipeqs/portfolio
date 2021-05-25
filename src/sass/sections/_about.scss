@@ -11,11 +11,16 @@
         }
 
         &__image {
+            img {
+                width: 100%;
+            }
+
             @include respond(tab-port) {
                 padding-bottom: 6.4rem;
             }
             @include respond(tab-land) {
                 height: 100%;
+                padding-bottom: 6.4rem;
             }
         }
 

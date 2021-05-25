@@ -5,6 +5,7 @@ import { PortfolioProvider } from './context/context';
 
 import { heroData, aboutData, footerData, contactData, projectsData } from './data/data';
 import About from './sections/About';
+import Projects from './sections/Projects';
 
 const App = () => {
     const [hero, setHero] = useState({});
@@ -25,6 +26,7 @@ const App = () => {
         <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
             <Hero />
             <About />
+            <Projects />
         </PortfolioProvider>
     );
 };

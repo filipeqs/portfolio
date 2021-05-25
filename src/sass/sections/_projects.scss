@@ -1,0 +1,9 @@
+#projects {
+    background-color: $white-color;
+    color: $dark-blue-text;
+
+    @include respond(tab-land) {
+        margin-top: 0;
+        padding-top: 5rem;
+    }
+}

@@ -15,9 +15,16 @@ const About = () => {
             <Container>
                 <Title title="About me" />
                 <Row className="about-wrapper">
-                    <Col md={6} sm={12}>
+                    <Col lg={4} md={6} sm={12}>
                         <Fade bottom duration={1000} delay={600} distance="30px">
-                            <Image src={img} alt="profile" className="shadow-lg" roundedCircle />
+                            <div className="about-wrapper__image">
+                                <Image
+                                    src={img}
+                                    alt="profile"
+                                    className="shadow-lg"
+                                    roundedCircle
+                                />
+                            </div>
                         </Fade>
                     </Col>
                     <Col md={6} sm={12}>
