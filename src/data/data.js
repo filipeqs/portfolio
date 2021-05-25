@@ -43,23 +43,18 @@ export const footerData = {
     networks: [
         {
             id: uuidv4(),
-            name: 'twitter',
-            url: '',
-        },
-        {
-            id: uuidv4(),
-            name: 'codepen',
-            url: '',
+            name: 'facebook',
+            url: 'https://www.facebook.com/filipeqs92',
         },
         {
             id: uuidv4(),
             name: 'linkedin',
-            url: '',
+            url: 'https://www.linkedin.com/in/filipe-silva-775464b6/',
         },
         {
             id: uuidv4(),
             name: 'github',
-            url: '',
+            url: 'https://github.com/filipeqs',
         },
     ],
 };
