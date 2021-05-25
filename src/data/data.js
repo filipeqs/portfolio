@@ -22,7 +22,7 @@ export const aboutData = {
 export const projectsData = [
     {
         id: uuidv4(),
-        img: '../assets/dev-connector.png',
+        img: '/img/dev-connector.png',
         title: 'DevConnector',
         info: 'Blog app for developers where users are able to create a profile, create posts and interact with other developers.',
         info2: '',
