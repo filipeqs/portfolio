@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Hero from './components/Hero';
+import Hero from './sections/Hero';
 
 import { PortfolioProvider } from './context/context';
 
 import { heroData, aboutData, footerData, contactData, projectsData } from './data/data';
+import About from './sections/About';
 
 const App = () => {
     const [hero, setHero] = useState({});
@@ -23,6 +24,7 @@ const App = () => {
     return (
         <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
             <Hero />
+            <About />
         </PortfolioProvider>
     );
 };
