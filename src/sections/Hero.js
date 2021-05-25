@@ -9,7 +9,7 @@ const Hero = () => {
     const { title, name, subtitle, cta } = hero;
 
     return (
-        <section id="hero" className="jumbotron">
+        <section id="hero">
             <Container>
                 <Fade left duration={1000} delay={500} distance="30px">
                     <h1 className="hero-title">

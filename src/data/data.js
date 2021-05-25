@@ -10,11 +10,12 @@ export const heroData = {
 
 // About
 export const aboutData = {
-    img: '../assets/profile.jpg',
-    paragraphOne: '',
+    img: '/img/profile.jpg',
+    paragraphOne:
+        'Full Stack .Net Developer with about three years of experience in web development. Seeking a motivating and innovative company to challenge and allow me to continue learning and building skill set and expertise.',
     paragraphTwo: '',
     paragraphThree: '',
-    resume: '../assets/resume.pdf', // if no resume, the button will not show up
+    resume: '/assets/resume.pdf', // if no resume, the button will not show up
 };
 
 // Projects
