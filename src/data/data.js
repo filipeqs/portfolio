@@ -10,19 +10,19 @@ export const heroData = {
 
 // About
 export const aboutData = {
-    img: '/img/profile.jpg',
+    img: `${process.env.PUBLIC_URL}/img/profile.jpg`,
     paragraphOne:
         'Full Stack .Net Developer with about three years of experience in web development. Seeking a motivating and innovative company to challenge and allow me to continue learning and building skill set and expertise.',
     paragraphTwo: '',
     paragraphThree: '',
-    resume: '/assets/resume.pdf', // if no resume, the button will not show up
+    resume: `${process.env.PUBLIC_URL}/assets/resume.pdf`, // if no resume, the button will not show up
 };
 
 // Projects
 export const projectsData = [
     {
         id: uuidv4(),
-        img: '/img/dev-connector.png',
+        img: `${process.env.PUBLIC_URL}/img/dev-connector.png`,
         title: 'DevConnector',
         info: 'Blog app for developers where users are able to create a profile, create posts and interact with other developers.',
         info2: '',
@@ -33,9 +33,9 @@ export const projectsData = [
 
 // Contact
 export const contactData = {
-    cta: '',
-    btn: '',
-    email: '',
+    cta: 'Would you like to get in touch with me?',
+    btn: 'Send Email',
+    email: 'filipeqs@outlook.com',
 };
 
 // Footer
