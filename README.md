@@ -12,7 +12,7 @@ First clone this repository
 $ git clone https://github.com/filipeqs/portfolio.git
 ```
 
-Install dependencies. Make sure you already have npm installed in your system.
+Install dependencies. Make sure you already have npm installed in your system
 
 ```bash
 npm install
@@ -26,7 +26,7 @@ npm start
 
 ## Customize
 
-All data are on the data.js file.
+All data are on the data.js file
 
 ```bash
 src/data/data.js
