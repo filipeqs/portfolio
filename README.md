@@ -6,7 +6,7 @@ Portfolio built with React and Sass (.scss) files
 
 ## Instructions
 
-First clone this repository.
+First clone this repository
 
 ```bash
 $ git clone https://github.com/filipeqs/portfolio.git
