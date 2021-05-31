@@ -29,6 +29,15 @@ export const projectsData = [
         url: 'https://filipe-dev-connector.herokuapp.com/',
         repo: 'https://github.com/filipeqs/dev-connector',
     },
+    {
+        id: uuidv4(),
+        img: `${process.env.PUBLIC_URL}/img/proshop.png`,
+        title: 'Proshop',
+        info: 'ECommerce website.',
+        info2: 'Full featured shopping cart with PayPal & credit/debit payments. Admin area to manage customers, products & orders. Product search, carousel, pagination & more.',
+        url: 'https://filipe-proshop.herokuapp.com/',
+        repo: 'https://github.com/filipeqs/proshop',
+    },
 ];
 
 // Contact
