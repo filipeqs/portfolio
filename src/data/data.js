@@ -12,7 +12,7 @@ export const heroData = {
 export const aboutData = {
     img: `${process.env.PUBLIC_URL}/img/profile.jpg`,
     paragraphOne:
-        'Full Stack .Net Developer with about three years of experience in web development. Seeking a motivating and innovative company to challenge and allow me to continue learning and building skill set and expertise.',
+        'Full Stack Web Developer with about two years of experience in web development. Seeking a motivating and innovative company to challenge and allow me to continue learning and building skill set and expertise.',
     paragraphTwo: '',
     paragraphThree: '',
     resume: `${process.env.PUBLIC_URL}/assets/resume.pdf`, // if no resume, the button will not show up
