@@ -22,21 +22,85 @@ export const aboutData = {
 export const projectsData = [
     {
         id: uuidv4(),
+        icons: [
+            {
+                img: `${process.env.PUBLIC_URL}/icons/react.png`,
+                title: 'ReactJs',
+                link: 'https://reactjs.org/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/redux.png`,
+                title: 'Redux',
+                link: 'https://react-redux.js.org/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/nodejs.png`,
+                title: 'NodeJs',
+                link: 'https://nodejs.org/en/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/mongodb.png`,
+                title: 'MongoDB',
+                link: 'https://www.mongodb.com/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/bootstrap.png`,
+                title: 'Bootstrap',
+                link: 'https://getbootstrap.com/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/sass.png`,
+                title: 'Sass',
+                link: 'https://sass-lang.com/',
+            },
+        ],
         img: `${process.env.PUBLIC_URL}/img/dev-connector.png`,
         title: 'DevConnector',
-        info: 'Blog app for developers where users are able to create a profile, create posts and interact with other developers.',
-        info2: '',
+        info: 'Blog',
+        info2: 'Blog app for developers where users are able to create a profile, create posts and interact with other developers.',
         url: 'https://filipe-dev-connector.herokuapp.com/',
         repo: 'https://github.com/filipeqs/dev-connector',
     },
     {
         id: uuidv4(),
-        img: `${process.env.PUBLIC_URL}/img/proshop.png`,
+        icons: [
+            {
+                img: `${process.env.PUBLIC_URL}/icons/react.png`,
+                title: 'ReactJs',
+                link: 'https://reactjs.org/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/redux.png`,
+                title: 'Redux',
+                link: 'https://react-redux.js.org/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/nodejs.png`,
+                title: 'NodeJs',
+                link: 'https://nodejs.org/en/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/mongodb.png`,
+                title: 'MongoDB',
+                link: 'https://www.mongodb.com/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/bootstrap.png`,
+                title: 'Bootstrap',
+                link: 'https://getbootstrap.com/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/sass.png`,
+                title: 'Sass',
+                link: 'https://sass-lang.com/',
+            },
+        ],
+        img: `${process.env.PUBLIC_URL}/img/shoeshop.png`,
         title: 'Proshop',
-        info: 'ECommerce website.',
+        info: 'ECommerce website',
         info2: 'Full featured shopping cart with PayPal & credit/debit payments. Admin area to manage customers, products & orders. Product search, carousel, pagination & more.',
-        url: 'https://filipe-proshop.herokuapp.com/',
-        repo: 'https://github.com/filipeqs/proshop',
+        url: 'https://filipe-shoeshop.herokuapp.com/',
+        repo: 'https://github.com/filipeqs/shoeshop',
     },
 ];
 

@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className="project-wrapper">
                     <Title title="Projects" />
                     {projects.map((project) => {
-                        const { title, info, info2, url, repo, img, id } = project;
+                        const { title, icons, info, info2, url, repo, img, id } = project;
                         return (
                             <Row key={id}>
                                 <Col lg={4} sm={12}>
@@ -25,6 +25,25 @@ const Projects = () => {
                                             <h3 className="project-wrapper__text-title">
                                                 {title || 'Project Title'}
                                             </h3>
+
+                                            <div className="project__icon-container">
+                                                {icons.map(({ img, title, link }, i) => (
+                                                    <a
+                                                        href={link}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                    >
+                                                        <Image
+                                                            key={i}
+                                                            title={title}
+                                                            alt={'icon'}
+                                                            fluid
+                                                            src={img}
+                                                            className="project__icon"
+                                                        />
+                                                    </a>
+                                                ))}
+                                            </div>
 
                                             <div>
                                                 <p>
