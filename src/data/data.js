@@ -24,6 +24,37 @@ export const projectsData = [
         id: uuidv4(),
         icons: [
             {
+                img: `${process.env.PUBLIC_URL}/icons/csharp.png`,
+                title: 'C#',
+                link: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/angular.png`,
+                title: 'Angular',
+                link: 'https://angular.io/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/postgresql.png`,
+                title: 'PostgreSQL',
+                link: 'https://www.postgresql.org/',
+            },
+            {
+                img: `${process.env.PUBLIC_URL}/icons/bootstrap.png`,
+                title: 'Bootstrap',
+                link: 'https://getbootstrap.com/',
+            },
+        ],
+        img: `${process.env.PUBLIC_URL}/img/datingapp.png`,
+        title: 'Dating App',
+        info: 'Social',
+        info2: 'Dating app where users can like other users, see who liked them and send messages.',
+        url: 'https://filipe-datingapp.herokuapp.com/',
+        repo: 'https://github.com/filipeqs/DatingApp',
+    },
+    {
+        id: uuidv4(),
+        icons: [
+            {
                 img: `${process.env.PUBLIC_URL}/icons/react.png`,
                 title: 'ReactJs',
                 link: 'https://reactjs.org/',
